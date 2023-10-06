@@ -1,0 +1,12 @@
+How is content ingested?
+
+Content is ingested through an automatically scaling ingest system.
+
+What happens if there is no instant ingest capacity available?
+
+In the case of no instant ingest capacity available, please allow for up to 30 minutes for the scale-up to happen.
+
+What will be the status of content during the scale-up time period?
+
+During the scale-up time period, content would be listed normally (appearing in the Ingest Status tab of Nimbus UI), but its progress would only continue after the aforementioned scale-up time period.
+
