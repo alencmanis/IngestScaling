@@ -1,12 +1,307 @@
-How is content ingested?
+Вопрос 1: How is content ingested?
 
-Content is ingested through an automatically scaling ingest system.
+Ответ: Content is ingested through an automatically scaling ingest system.
 
-What happens if there is no instant ingest capacity available?
+Вопрос 2: What happens if there is no instant ingest capacity available?
 
-In the case of no instant ingest capacity available, please allow for up to 30 minutes for the scale-up to happen.
+Ответ: In the case of no instant ingest capacity available, please allow for up to 30 minutes for the scale-up to happen.
 
-What will be the status of content during the scale-up time period?
+Вопрос 3: What will be the status of content during the scale-up time period?
 
-During the scale-up time period, content would be listed normally (appearing in the Ingest Status tab of Nimbus UI), but its progress would only continue after the aforementioned scale-up time period.
+Ответ: During the scale-up time period, content would be listed normally (appearing in the Ingest Status tab of Nimbus UI), but its progress would only continue after the aforementioned scale-up time period.
 
+Вопрос 4: How long can the scaling of the content ingestion system take?
+
+Ответ: Scaling of the content ingestion system can take up to 30 minutes.
+
+Вопрос 5: Where can you track the status of content ingestion?
+
+Ответ: You can track the status of content ingestion in the "Ingest Status" section of the Nimbus UI.
+
+Вопрос 6: What happens to the processing progress of content during scaling?
+
+Ответ: The processing progress of content will only resume after the specified scaling time period, while the content will be listed normally.
+
+Вопрос 7: Is the content ingestion system manual or automatic?
+
+Ответ: The content ingestion system is automatic.
+
+Вопрос 8: What is the maximum wait time for scaling to occur?
+
+Ответ: The maximum wait time for scaling to occur is 30 minutes.
+
+Вопрос 9: In which section of the Nimbus UI can you find the content status?
+
+Ответ: You can find the content status in the "Ingest Status" tab of Nimbus UI.
+
+Вопрос 10: Can you provide more details about how content is ingested?
+
+Ответ: Content is ingested using an automatically scaling system designed for efficient processing.
+
+Вопрос 11: Are there any specific requirements for content to be ingested?
+
+Ответ: The primary requirement is that there is available ingest capacity.
+
+Вопрос 12: What happens if content is ingested when there's no available capacity?
+
+Ответ: If there's no available capacity, you may need to wait for up to 30 minutes for scaling to take place.
+
+Вопрос 13: Is there any interruption to content ingestion during scaling?
+
+Ответ: Content ingestion is not interrupted during scaling, but its processing progress is delayed until scaling is complete.
+
+Вопрос 14: How can users monitor the scaling process?
+
+Ответ: Users can monitor the scaling process through the Nimbus UI in the "Ingest Status" tab.
+
+Вопрос 15: What is the expected behavior of content during scaling?
+
+Ответ: Content is listed normally during scaling, but its processing progress is on hold until scaling is finished.
+
+Вопрос 16: How does the automatic scaling system determine when to scale up?
+
+Ответ: The system scales up when there is insufficient capacity to handle incoming content.
+
+Вопрос 17: Is there any manual intervention required for scaling?
+
+Ответ: No manual intervention is required; scaling happens automatically.
+
+Вопрос 18: What is the purpose of the Ingest Status tab in Nimbus UI?
+
+Ответ: The Ingest Status tab allows users to track the progress and status of ingested content.
+
+Вопрос 19: Can the scaling time period be adjusted?
+
+Ответ: The scaling time period is not adjustable; it is set to a maximum of 30 minutes.
+
+Вопрос 20: What is the benefit of having an automatically scaling ingest system?
+
+Ответ: An automatically scaling ingest system ensures efficient processing of content without manual intervention.
+
+Вопрос 21: What factors can lead to a lack of instant ingest capacity?
+
+Ответ: High incoming content volumes or system load can lead to a lack of instant ingest capacity.
+
+Вопрос 22: How does the system handle content that arrives during scaling?
+
+Ответ: Content arriving during scaling is queued and processed after scaling is complete.
+
+Вопрос 23: Is there any notification provided to users during scaling?
+
+Ответ: Users may receive notifications or updates about the scaling process through the Nimbus UI.
+
+Вопрос 24: Can users request manual scaling?
+
+Ответ: Manual scaling is not typically required or available, as the system handles it automatically.
+
+Вопрос 25: What happens if content arrives when there is instant ingest capacity?
+
+Ответ: Content arriving when there is instant ingest capacity is processed immediately.
+
+Вопрос 26: How can users be notified when scaling is complete?
+
+Ответ: Users can check the Ingest Status tab for updates on scaling completion.
+
+Вопрос 27: Is there a limit to the number of content items that can be ingested at once?
+
+Ответ: The ingest capacity depends on the system's capacity and can vary.
+
+Вопрос 28: Are there any restrictions on the type of content that can be ingested?
+
+Ответ: The type of content that can be ingested depends on system capabilities and configuration.
+
+Вопрос 29: How does the system ensure fair queuing of content during scaling?
+
+Ответ: The system typically uses a first-come, first-served queuing mechanism for fairness.
+
+Вопрос 30: Can users prioritize certain content items during scaling?
+
+Ответ: Prioritization of content items during scaling may not be available in all cases.
+
+Вопрос 31: What happens if scaling takes longer than 30 minutes?
+
+Ответ: Scaling should typically complete within 30 minutes, but if it takes longer, users may be notified of delays.
+
+Вопрос 32: Is there a way to expedite the scaling process?
+
+Ответ: Scaling is designed to occur automatically and may not be expedited manually.
+
+Вопрос 33: Can users check the progress of content processing during scaling?
+
+Ответ: Content processing progress is on hold during scaling, so users will see no progress until scaling is complete.
+
+Вопрос 34: Are there any limitations to the scalability of the system?
+
+Ответ: Scalability depends on system capacity and resources, and there may be practical limits.
+
+Вопрос 35: Can users request a notification when scaling starts?
+
+Ответ: Notification of scaling initiation may not be available, but users can check the Ingest Status tab for updates.
+
+Вопрос 36: What are the key benefits of the Nimbus UI for users?
+
+Ответ: The Nimbus UI provides a user-friendly interface for monitoring content ingestion and other system activities.
+
+Вопрос 37: Can users manually intervene in the content ingestion process?
+
+Ответ: Manual intervention in content ingestion is typically not required and is handled automatically.
+
+Вопрос 38: What measures are in place to prevent overloading the system during scaling?
+
+Ответ: The system is designed to handle scaling while minimizing disruption to ongoing operations.
+
+Вопрос 39: Is there a way to prioritize content types during scaling?
+
+Ответ: The system may have the capability to prioritize certain content types during scaling, depending on configuration.
+
+Вопрос 40: How can users determine the current ingest capacity of the system?
+
+Ответ: Users can usually find information about current ingest capacity in the Nimbus UI.
+
+Вопрос 41: Are there any best practices for users to optimize content ingestion?
+
+Ответ: Best practices may include monitoring the Ingest Status tab and avoiding unnecessary content uploads during scaling.
+
+Вопрос 42: Can users cancel content ingestion during scaling?
+
+Ответ: Users may not be able to cancel content ingestion once it has been initiated.
+
+Вопрос 43: What happens to content that is uploaded just before scaling starts?
+
+Ответ: Content uploaded just before scaling starts may be queued for processing after scaling is complete.
+
+Вопрос 44: How does the system prioritize content in the queue?
+
+Ответ: The system often prioritizes content based on the order it was received, using a first-in, first-out (FIFO) approach.
+
+Вопрос 45: Is there a way to estimate the expected wait time during scaling?
+
+Ответ: The expected wait time during scaling is typically up to 30 minutes, as mentioned in the text.
+
+Вопрос 46: Can users receive alerts when scaling is complete?
+
+Ответ: Users may receive alerts or notifications through the Nimbus UI when scaling is complete.
+
+Вопрос 47: How does the system determine when to stop scaling up?
+
+Ответ: The system typically stops scaling up once it has sufficient capacity to handle incoming content.
+
+Вопрос 48: Are there any user actions that can speed up the scaling process?
+
+Ответ: Scaling is primarily an automated process, and user actions may not significantly affect its speed.
+
+Вопрос 49: What metrics does the system use to assess its capacity for content ingestion?
+
+Ответ: The system may use various metrics, such as server load and resource availability, to assess its capacity.
+
+Вопрос 50: Can users configure the scaling behavior of the system?
+
+Ответ: Configuration options for scaling behavior may be available depending on the system's settings.
+
+Вопрос 51: Is there a way for users to view a history of scaling events?
+
+Ответ: Some systems may provide a history of scaling events for users to review.
+
+Вопрос 52: What steps can users take if they encounter content ingestion delays?
+
+Ответ: Users can monitor the Ingest Status tab and contact support if they experience prolonged delays.
+
+Вопрос 53: How does the system prioritize content that was already in the queue before scaling?
+
+Ответ: Content already in the queue before scaling is typically processed in the order it was received.
+
+Вопрос 54: Can users initiate content ingestion at specific times to avoid scaling?
+
+Ответ: Some systems may allow users to schedule content ingestion to minimize potential scaling conflicts.
+
+Вопрос 55: Is there a limit to the number of users who can upload content simultaneously?
+
+Ответ: The number of users who can upload content simultaneously may depend on system capacity and configuration.
+
+Вопрос 56: Can users monitor the overall system load during scaling?
+
+Ответ: Users may be able to monitor system load and performance through the Nimbus UI.
+
+Вопрос 57: How does the system ensure that all queued content is eventually processed?
+
+Ответ: The system is designed to process all queued content once it has sufficient capacity.
+
+Вопрос 58: Is there any impact on already ingested content during scaling?
+
+Ответ: Scaling typically does not impact already ingested content; it primarily affects incoming content.
+
+Вопрос 59: Can users receive automated notifications about scaling progress?
+
+Ответ: Automated notifications about scaling progress may be available depending on system settings.
+
+Вопрос 60: What happens if the system encounters errors during scaling?
+
+Ответ: The system is typically designed to handle errors during scaling and recover gracefully.
+
+Вопрос 61: Is there a way to estimate the expected queue length during scaling?
+
+Ответ: The expected queue length during scaling can vary depending on incoming content volume and system capacity.
+
+Вопрос 62: Can users request manual intervention if scaling takes too long?
+
+Ответ: Users may not have the option to request manual intervention, as scaling is an automated process.
+
+Вопрос 63: How does the system handle priority content during scaling?
+
+Ответ: Priority content may be processed ahead of other content in the queue, depending on system configuration.
+
+Вопрос 64: Is there a way to prioritize certain users or accounts during scaling?
+
+Ответ: Some systems may allow for user or account-based prioritization during scaling.
+
+Вопрос 65: Can users pause or resume content ingestion during scaling?
+
+Ответ: Users may not be able to pause or resume content ingestion once it has started.
+
+Вопрос 66: How does the system handle content that is already partially ingested when scaling begins?
+
+Ответ: Content already partially ingested when scaling begins will continue processing after scaling is complete.
+
+Вопрос 67: Is there a way for users to estimate the completion time of content processing during scaling?
+
+Ответ: The completion time of content processing during scaling can vary and may not be easily estimated.
+
+Вопрос 68: Can users specify the priority of individual content items during scaling?
+
+Ответ: Some systems may allow users to specify the priority of individual content items.
+
+Вопрос 69: How does the system ensure fair treatment of all users during scaling?
+
+Ответ: The system typically employs queuing mechanisms to ensure fair treatment of all users.
+
+Вопрос 70: What measures are in place to prevent content loss during scaling?
+
+Ответ: Content loss during scaling is typically prevented through proper queuing and processing mechanisms.
+
+Вопрос 71: Can users request additional scaling capacity if needed?
+
+Ответ: Additional scaling capacity may be automatically allocated as needed by the system.
+
+Вопрос 72: How does the system handle content that arrives after scaling is complete?
+
+Ответ: Content arriving after scaling is complete is typically processed as usual.
+
+Вопрос 73: Are there any limitations on the size of individual content items that can be ingested?
+
+Ответ: The size limitations for individual content items can vary depending on system configuration.
+
+Вопрос 74: Can users specify a preferred time for scaling to occur?
+
+Ответ: Some systems may allow users to schedule scaling at preferred times to minimize disruption.
+
+Вопрос 75: What happens if content is submitted during a scheduled scaling window?
+
+Ответ: Content submitted during a scheduled scaling window is typically queued for processing after scaling.
+
+Вопрос 76: Is there a way to receive real-time updates on scaling progress?
+
+Ответ: Real-time updates on scaling progress may be available through the Nimbus UI.
+
+Вопрос 77: How does the system handle content that is submitted with metadata during scaling?
+
+Ответ: Content submitted with metadata is typically processed along with the metadata once scaling is complete.
